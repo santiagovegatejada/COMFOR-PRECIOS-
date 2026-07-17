@@ -172,7 +172,7 @@ if('serviceWorker' in navigator){
       <span class="arr">|</span>
       <b>Sin IVA</b><span style="font-size:11px;color:#888">÷1.21</span>
       <span class="arr">|</span>
-      <b style="color:#b07a00">6 cuotas</b><span style="font-size:11px;color:#888">= Lista×0.85×1.64×1.17</span>
+      <b style="color:#b07a00">6 cuotas</b><span style="font-size:11px;color:#888">= Lista×0.85×1.64×1.20</span>
     </div>
 
     <div class="slabel">🔎 Búsqueda rápida (modelo y medida, ej: "pocket 140")</div>
@@ -393,7 +393,7 @@ const $=id=>document.getElementById(id);
 const fmt=n=>'$'+Math.round(n).toLocaleString('es-AR');
 const calcV=n=>n*0.85*1.64;
 const calcSI=n=>n*0.85*1.64/1.21;
-const calcC6=n=>n*0.85*1.64*1.17;
+const calcC6=n=>n*0.85*1.64*1.20;
 const calcC6val=n=>Math.round(calcC6(n)/6);
 const show=id=>$(id).classList.remove('hidden');
 const hide=id=>$(id).classList.add('hidden');
