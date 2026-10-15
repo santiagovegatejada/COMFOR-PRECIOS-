@@ -1,5 +1,5 @@
 // Service Worker: deja la app disponible sin internet
-const CACHE = 'comfort-precios-v8';
+const CACHE = 'comfort-precios-v11';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-180.png'];
 
 self.addEventListener('install', e => {
